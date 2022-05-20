@@ -1,0 +1,367 @@
+:root {
+  /* --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%; */
+
+  --fs-400: 4rem;
+  --fs-300: 3rem;
+  --fs-200: 2rem;
+  --fs-100: 1.6rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  width: 100%;
+}
+
+section {
+  margin: 2rem auto;
+}
+.header {
+  /* background-color: hsl(var(--clr-light) / 0.05); */
+  background-color: lightpink;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-block: 2rem; */
+}
+.logo {
+  font-size: var(--fs-400);
+  color: hsl(var(--clr-white));
+  transition: 1s ease-in-out;
+}
+.logo:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: hsl(var(--clr-dark));
+  font-weight: bold;
+}
+.nav-list {
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+}
+.nav-links {
+  font-size: var(--fs-200);
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  transition: 1s ease-in-out;
+  display: block;
+}
+.nav-links:hover {
+  background-color: hsl(var(--clr-light) / 0.2);
+  padding: 0.5rem 1rem;
+  color: rgba(255, 0, 0, 0.9);
+}
+.button-link {
+  font-size: var(--fs-200);
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid blue;
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
+}
+.button-link:hover {
+  text-decoration: 2px solid underline black;
+  background-color: blueviolet;
+  border: 2px solid white;
+}
+/* Section 1 */
+.hero {
+  margin: 1rem auto;
+  text-align: center;
+  justify-content: space-between;
+}
+.hero-title-padding {
+  margin: 4rem auto;
+}
+.title {
+  font-size: var(--fs-300);
+}
+.hero-img {
+  max-width: 100%;
+  width: 75%;
+
+}
+.pagesd {
+  background-color: pink;
+  background-image: url("../images/socialists5.png");
+  height: 300px;
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+
+}
+.pagesm {
+  background-color: pink;
+  background-image: url("../images/socialists3.gif");
+  height: 300px;
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.pagesme {
+  background-color: pink;
+  background-image: url("../images/socialists4.jpg");
+  height: 300px;
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.pagen {
+  text-align: center;
+}
+
+.pagesa {
+  background-color: pink;
+  background-image: url("../images/socialists7.jpg");
+  height: 300px;
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.pagest {
+  background-color: pink;
+  background-image: url("../images/socialists6.png");
+  height: 300px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.pf {
+  font-size: large;
+  color: yellow;
+}
+/* Store */
+td, th {
+  font-family: 'Oswald', sans-serif;
+  padding: 4px;
+}
+
+label {
+  vertical-align: top;
+}
+
+input, select, textarea {
+  width: auto;
+  margin-left: 8px;
+  border: solid 1px black;
+  padding: 5px;
+}
+
+input[type=button]:hover {
+  background-color: yellow;
+}
+
+input[type=button]:active {
+  background-color: pink;
+}
+
+input[type=button] {
+  background-color: red;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+#shopping {
+  border: 1px dotted red;
+  background-color: pink;
+}
+
+#items_table {
+  border: 1px dotted red;
+  background-color: pink;
+  margin-top: 12px;
+}
+/* Section 2 */
+.col {
+  text-align: center;
+  height: 50rem;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+  opacity: 0.7;
+  transition: 1s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.col:hover {
+  opacity: 1;
+}
+.col-1 {
+  background-image: url("../images/socialists2.jpg");
+}
+.col-2 {
+  background-image: url("../images/socialists3.gif");
+}
+.col-3 {
+  background-image: url("../images/socialists4.jpg");
+}
+.col-4 {
+  background-image: url("../images/socialists5.png");
+}
+.col-5 {
+  background-image: url("../images/socialists6.png");
+}
+.col-6 {
+  background-image: url("../images/socialists7.jpg");
+}
+.info {
+  font-size: var(--fs-300);
+  color: inherit;
+  padding: 1rem 2rem;
+  /* background-color: rgba(0, 0, 255, 0.5); */
+  background-color: green;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 auto;
+  transition: 0.5s ease-in-out;
+}
+.info:hover {
+  /* background-color: rgba(25, 178, 216, 0.966); */
+  background-color: lightgreen;
+  font-size: var(--fs-400);
+  color: hsl(var(--clr-dark));
+}
+
+/* API */
+#card {
+    background-image: url(https://www.dropbox.com/s/yd085qi0n1g4tn4/newspaper_texture_unsplash.jpg?raw=1);
+    background-repeat: no-repeat;
+    background-size: cover; 
+      position: relative;
+display: block;
+margin: 2.5% auto auto auto;
+padding: 5%;
+width: 75%;
+height: 75%;  }
+  
+#card,
+#card::before,
+#card::after {
+    background-image: url(https://www.dropbox.com/s/yd085qi0n1g4tn4/newspaper_texture_unsplash.jpg?raw=1);
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+  }
+  
+  #card::before,
+  #card::after {
+      
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #C1C3C2;
+  }
+  
+  #card::before {
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
+  }
+  
+  #card::after {
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+  }
+
+
+/* Reusable Codes */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bg-dark {
+  /* background-color: hsl(var(--clr-dark)); */
+  background-color: red;
+}
+.bg-white {
+  /* background-color: hsl(var(--clr-white)); */
+  background-color: lightsalmon;
+}
+.text-dark {
+  color: hsl(var(--clr-dark));
+}
+.text-white {
+  color: hsl(var(--clr-white));
+}
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  font-size: var(--fs-100);
+}
+/* MeqiaQuery */
+@media screen and (max-width: 1500px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header {
+    width: 120%;
+  }
+  .nav-links{
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .nav-list {
+    padding-inline: 2rem;
+    margin: 1rem auto;
+  }
+  .hero {
+    display: flex;
+  }
+  .hero-img {
+    max-width: 50%;
+  }
+  .col {
+    background-size: cover;
+  }
+}
